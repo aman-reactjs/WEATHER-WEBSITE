@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    background-image: url("https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?cs=srgb&dl=pexels-thatguycraig000-1563356.jpg&fm=jpg");
+    background-repeat: repeat-y;
+}
+
+
+.container{
+    width: 300px;
+    height: 320px;
+    background-color: rgba(244, 250, 250, 0.5);
+    border-radius: 20px;
+    margin-top: 150px;
+    padding: 20px 1px ;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-5px); 
+    transition: all 0.3s ease-in-out;
+    backdrop-filter: blur(5px);
+}
+.container h2{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.container-box{
+    margin-top: 30px;
+    text-align: center;
+    /* color: red; */
+}
+#error-msg{
+    color: red;
+    text-align: center;
+}
+#input_box{
+    width: 220px;
+    height: 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background: none;
+    border: 1px solid rgb(32, 29, 29);
+    outline: none;
+    padding-left: 15px;
+}
+
+#fetchData{
+    position: relative;
+    left: -25px;
+    background: none;
+    border: none;
+}
+
+
+.temprature{
+    /* padding-top: 30px; */
+    
+    /* color: yellow; */
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cloud{
+    height: 90px;
+    /* color: yellow; */
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-left: 75px; */
+}
+#hum-wind{
+    display: flex;
+   justify-content: center;
+    width: 280px;
+    /* background-color: yellow; */
+    margin-top: 20px;
+     margin-left: 15px;
+}
+.humidity{
+    /* margin: 10px 10px; */
+    /* color: azure; */
+    padding-right: 80px ;
+    
+}
+.wind{
+    color: black;
+  
+}
+.img-humidity{
+    font-size: 20px;
+    display: none;
+}
+.img-wind{
+    font-size: 25px;
+    display: none;
+
+}
